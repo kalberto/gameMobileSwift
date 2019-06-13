@@ -11,4 +11,6 @@ import Foundation
 class Masks {
     static let groundMask: UInt32 = 0x1 << 0;
     static let snakeMask: UInt32 = 0x1 << 1;
+    static let playerMask: UInt32 = 0x1 << 2;
+    static let wallMask: UInt32 = 0x1 << 3;
 }

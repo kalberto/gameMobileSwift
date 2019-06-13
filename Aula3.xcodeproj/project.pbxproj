@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575D1C8822B1D5F80047DD48 /* SnakeExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 575D1C8722B1D5F80047DD48 /* SnakeExplosion.sks */; };
+		575D1C8A22B1DCEF0047DD48 /* snakeDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = 575D1C8922B1DCEF0047DD48 /* snakeDeath.wav */; };
 		57C0237D229F660900C26D67 /* life.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 57C0237C229F660800C26D67 /* life.atlas */; };
 		57E0970A228CCF1B00104505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E09709228CCF1B00104505 /* AppDelegate.swift */; };
 		57E0970C228CCF1B00104505 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 57E0970B228CCF1B00104505 /* GameScene.sks */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		575D1C8722B1D5F80047DD48 /* SnakeExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnakeExplosion.sks; sourceTree = "<group>"; };
+		575D1C8922B1DCEF0047DD48 /* snakeDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snakeDeath.wav; sourceTree = "<group>"; };
 		57C0237C229F660800C26D67 /* life.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = life.atlas; sourceTree = "<group>"; };
 		57E09706228CCF1B00104505 /* Aula3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E09709228CCF1B00104505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 		57E09708228CCF1B00104505 /* Aula3 */ = {
 			isa = PBXGroup;
 			children = (
+				575D1C8922B1DCEF0047DD48 /* snakeDeath.wav */,
 				57C0237C229F660800C26D67 /* life.atlas */,
 				57E09709228CCF1B00104505 /* AppDelegate.swift */,
 				57E0970B228CCF1B00104505 /* GameScene.sks */,
@@ -75,6 +80,7 @@
 				57E09718228CCF1E00104505 /* LaunchScreen.storyboard */,
 				57E0971B228CCF1E00104505 /* Info.plist */,
 				57E09721228CE79D00104505 /* Masks.swift */,
+				575D1C8722B1D5F80047DD48 /* SnakeExplosion.sks */,
 			);
 			path = Aula3;
 			sourceTree = "<group>";
@@ -139,10 +145,12 @@
 			files = (
 				57E09715228CCF1B00104505 /* Main.storyboard in Resources */,
 				57E0970C228CCF1B00104505 /* GameScene.sks in Resources */,
+				575D1C8A22B1DCEF0047DD48 /* snakeDeath.wav in Resources */,
 				57E09717228CCF1E00104505 /* Assets.xcassets in Resources */,
 				57E0971A228CCF1E00104505 /* LaunchScreen.storyboard in Resources */,
 				57E0970E228CCF1B00104505 /* Actions.sks in Resources */,
 				57C0237D229F660900C26D67 /* life.atlas in Resources */,
+				575D1C8822B1D5F80047DD48 /* SnakeExplosion.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
