@@ -20,7 +20,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var gameOver = false;
     var startOver = false;
-     
+    
     var framesCount = 0;
     var startPos: CGPoint!;
     
